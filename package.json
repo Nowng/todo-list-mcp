@@ -1,0 +1,27 @@
+{
+  "name": "lms-plugin-todo-list-mcp",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "lms dev",
+    "push": "lms push",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "mcp": "node dist/mcp.js"
+  },
+  "dependencies": {
+    "@lmstudio/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "@types/sql.js": "^1.4.11",
+    "sql.js": "^1.14.2",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT"
+}

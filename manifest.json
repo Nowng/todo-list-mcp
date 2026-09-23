@@ -1,0 +1,7 @@
+{
+  "type": "plugin",
+  "runner": "node",
+  "name": "todo-list-mcp",
+  "owner": "hoonowng",
+  "description": "An LM Studio Plugin that provides a comprehensive todo list MCP server with 10 tools for managing tasks. Ported from the original https://github.com/RegiByte/todo-list-mcp project."
+}
